@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  color: #333;
+  font-family: "Sofia Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+/* header */
+.header {
+  background-color: #333;
+  overflow: auto;
+  line-height: 1.7em;
+  
+}
+.header nav h1 {
+  float: left;
+  padding: 20;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.header nav h1 a {
+  color: rgb(255, 255, 255);
+}
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+.header nav ul li {
+  float: left;
+}
+.header nav ul li a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.header nav ul li a:hover {
+  background-color: #555;
+}
+.active {
+  background-color: #555;
+}
+/* vp */
+.vp {
+  height: 500px;
+  background: url(../image/café\ 3.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+.vp-content {
+  max-width: 578px;
+  padding-top: 138px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+.vp-content h1 {
+  font-size: 50px;
+}
+.separator {
+  background: rgb(255, 255, 255);
+  width: 350px;
+  height: 2px;
+  margin: 20px auto;
+}
+.vp-content p {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.link {
+  padding: 15px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #555;
+  border: 0ch;
+}
+.link-hover:hover {
+  color: white;
+  border-radius: 20px;
+  background-color: #222;
+  font-weight: 900;
+  
+}
+.container {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  
+}
+.features {
+  padding: 100px 40px 100px 40px;
+  overflow: auto;
+  text-align: center;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+i {
+  padding: 10px;
+  transition: 0.7s;
+  margin-top: 5px;
+}
+i:hover {
+  color: rgb(255, 255, 255);
+  border: 2px;
+  border-radius: 20px;
+  border-color: #555;
+  background: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+.separator-feature {
+  background-color: #333;
+  width: 3px;
+  height: 200px;
+  margin: auto;
+}
+.person {
+  height: 500px;
+  background: url(../image/café\ 1.jpg) center center/cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  transition: 1ms;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 15px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 0ch;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btn-dark {
+  color: white;
+  background: #222;
+}
+.btn-dark:hover {
+  color: #333;
+  background: white;
+   border: 2px solid #222;
+  transition : 0.3s ease-in-out;
+}
+.reservation {
+  margin-left: 50px;
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+  margin-right: 50px;
+}
+#h1-resrv {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+#p-resrv {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+footer {
+  padding: 50px 0px 50px 0px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background: #333;
+  font-size: 20px;
+}
+.where{
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+    min-height: 80vh;
+}
+.whare-text{
+    float: right;
+    width: 50%;
+}
+.where-img{
+    width: 45%;
+    border:#555 2px solid;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+
+}
+.underline{
+    margin-top: 10px;
+   width: 320px;
+    padding-left: 0px;
+    border-bottom:solid #555 2px;
+}
+.ship{
+    border-radius: 100%;
+    width: 35px;
+    color:white;
+    background-color:#333;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.ship-purple{
+    background-color: #4b1764;
+}
+.ship-browne{
+    background-color: #b20000;
+}
+.contact{
+    padding: 100px 0px 100px 0px;
+    min-height: 74.5vh;
+
+}
+.container-from-cotact{
+    max-width: 600px;
+    margin: auto;
+}
+.container-from-cotact form label{
+    font-weight:700 ;
+    display: block;
+
+
+
+    
+}
+.container-from-cotact form input , textarea{
+    display: block;
+    padding: 7px;
+    border: #555 solid 1.5px;
+    border-radius: 5px;
+    width: 86%;
+}
+textarea{
+    margin-bottom: 20px;
+}
+button{
+    margin: auto;
+    margin-left: 213px;
+}
